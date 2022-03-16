@@ -1,5 +1,4 @@
-
-class checkimei():
+class CheckIMEI():
     def __init__(self, purportedCC):
         self.purportedCC = purportedCC
 
@@ -29,10 +28,10 @@ class checkimei():
 
     
 if __name__ == '__main__':
-    check = checkimei('865336041527575')
+    check = CheckIMEI('865336041527575')
     check.split()
     print(check.checkLuhn())
-    check = checkimei('865336041527567')
+    check = CheckIMEI('865336041527567')
     check.split()
     print(check.checkLuhn())
     
